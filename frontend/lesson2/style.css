@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.photo{
+    width: 450px;
+}
+div{
+    margin-top: 10%;
+}
+.text{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.fb{
+    background-color: blue;
+}
+.tw{
+    background-color: deepskyblue;
+}
+.instg{
+background-color: mediumblue;
+}
+.pin{
+    background-color: red;
+}

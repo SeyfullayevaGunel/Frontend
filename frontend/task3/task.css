@@ -1,0 +1,15 @@
+body{
+    background-color:#808080 ;
+}
+div
+{
+    text-align: center;
+}
+.one{
+    margin: 5% 15% 5% 15%;
+}
+.two
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
