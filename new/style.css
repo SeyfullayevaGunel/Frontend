@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Roboto:wght@400;700&display=swap');
+
+
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 90%;
+}
+body{
+    height: 5000px;
+}
+.head h1{
+    font-size: 50px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+section .container p{
+    border-bottom: 2px solid #58825B;
+    margin: 5rem 0 3rem;
+}
+.flex .box {
+    padding: 15px;
+    color: #515151;
+}
+.flex .box .new{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #00BADB;
+    padding: 0 5px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.flex .box .sale{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: #FFA800;
+    padding: 0 5px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.flex .box .zero{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    padding: 2px;
+}
+.moda1{
+    width: 48%;
+    height: 100Vh;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.shop .moda1 .woman{
+    margin-bottom: 2rem
+}
+.shop .moda1 .woman a{
+    text-decoration: none;
+    color: black;
+     background:#F0F0F0 ;
+    
+    padding: 10px 3rem;
+    font-weight: bold;
+}
+.moda2{
+    width: 24%;
+    height: 100vh;
+
+    
+    
+}
+.moda3{
+    width: 24%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.shop .moda2 .small{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.shop .moda2 .small{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.shop .moda2 .accessories a{
+    text-decoration: none;
+    color: black;
+     background: #F0F0F0;
+    
+    padding: 10px 3rem;
+    font-weight: bold;
+}
+.shop .moda2 .footwear a{
+    text-decoration: none;
+    color: black;
+     background: #F0F0F0;
+    
+    padding: 10px 3rem;
+    font-weight: bold;
+}
+.shop .moda3 a{
+    text-decoration: none;
+    color: black;
+     background:#F0F0F0 ;
+    
+    padding: 10px 3rem;
+    font-weight: bold;
+}

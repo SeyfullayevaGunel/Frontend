@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    margin: auto;
+    width: 85%;
+}
+
+.box {
+    width: 23%;
+    margin: 0 20px;
+}
+
+.box .image {
+
+    position: relative;
+}
+
+.box .image img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.flex .head span {
+    padding: 1rem;
+    color: grey;
+    font-size: 20px;
+}
+
+.image .note .min1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #42A5F6;
+    color: white;
+    padding: 3px;
+}
+
+.image .note .min2 {
+    background: #F54337;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    padding: 3px 5px;
+    color: white;
+
+}
+
+.image .note .min3 {
+    background: #FFDE2E;
+    position: absolute;
+    top: 67px;
+    left: 10px;
+    padding: 3px;
+    color: black;
+
+}
+.box .image .min1{
+    background-color:#FF7143 ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.box .hrs {
+    display: flex;
+    position: absolute;
+    left: 15px;
+    bottom: 1rem;
+
+}
+
+.box .hrs .smth {
+    background-color: white;
+    border: 1px solid #ECEDEA;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.size .col {
+    color: #A2A9B2;
+    border: 1px solid #EEEEEE;
+    padding: 2px;
+    margin: 2px;
+}
+
+.color .col {
+    border: 1 px solid transparent;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+}
+
+.color .white {
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    margin: 0 2px;
+
+}
+
+.icons {
+    margin: 1.5rem 0;
+}
+
+.icons a {
+    text-decoration: none;
+    border: 1px solid #DDDDDD;
+    padding: 10px 2rem;
+    color: grey;
+}
+
+.icons i {
+    color: grey;
+}
+
+.star {
+    font-size: 10px;
+    margin: 15px;
+}
+
+.size1 .col{
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    margin: 2px;
+}
+
+.size1 img{
+    width: 50px;
+    height: 50px;
+}

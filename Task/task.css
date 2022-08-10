@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.container{
+    margin: auto;
+    width: 95%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-color:beige;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.flex .box {
+margin-top: 5rem;
+ width: 19%;
+ padding: 15px;
+ border: 1px solid #BCBFCA;
+ position: relative;
+ border-radius: 12px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: white;
+}
+.flex .box .image img{
+    width: 100%;
+}
+
+.flex .box .image .hot{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#F74B81 ;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 12px 0;
+}
+.flex .box span{
+    color: #BCBFCA;
+    margin: 5px 0;
+}
+.flex .box p{
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.flex .box .star i{
+    color: yellow;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.flex .box .flex .price{
+    color:#3DB8A7 ;
+    font-weight: bold;
+}
+.flex .box .price1 {
+text-decoration: line-through;
+color:#BCBFCA ;
+}
+.box .flex .price a{
+    padding: 7px 13px;
+    background:#DEF9EC ;
+    text-decoration: none;
+    color:#3CB78B ;
+    border-radius: 5px;
+}

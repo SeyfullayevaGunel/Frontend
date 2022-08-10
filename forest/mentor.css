@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.card {
+    width: 17%;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.coursel-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coursel .coursel-header h3 {
+    display: inline-block;
+    margin-right: 70%;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.coursel .coursel-header div {
+    display: inline-block;
+
+}
+
+.coursel .coursel-header a {
+    color: #8E9AB4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.coursel-body {
+    margin-top: 2rem;
+}
+
+.coursel .card .card-body a {
+    text-align: center;
+    display: block;
+    line-height: 2;
+
+}
+
+.coursel .card .card-body span {
+    text-align: center;
+    display: block;
+    color: #BCC3CD;
+    line-height: 1;
+}
+
+.coursel .card .card-body small {
+    color: #BCC3CD;
+}
+
+div {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.coursel .card .card-body strong {
+    color: red;
+}
+
+.coursel .card .card-body hr {
+    margin-top: 2rem;
+}
+
+.card {
+    border: 1px solid #BCC3CD;
+}
+
+.coursel .card .card-body i {
+    margin-left: 10px;
+}
