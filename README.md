@@ -5,3 +5,4 @@ Tasks
  3. Task 3 =>code[Services](https://github.com/SeyfullayevaGunel/Frontend/tree/main/New%20folder) = > preview[Services](https://codepen.io/seyfullayevagunel/pen/oNqMyvX)
  4. Task 4 =>code [Card](https://github.com/SeyfullayevaGunel/Frontend/tree/main/Task) = > preview[Card](https://codepen.io/seyfullayevagunel/pen/poLZKzZ)
  5.  Task 1 = > code[Dropdown](https://github.com/SeyfullayevaGunel/Frontend) = >code[Practica](https://codepen.io/seyfullayevagunel/pen/OJvBmPR)
+ 6. Task 6 = >code[Megamenu](https://github.com/SeyfullayevaGunel/Frontend) = >preview[Megamenu](https://codepen.io/seyfullayevagunel/pen/zYWmeOL)
