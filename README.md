@@ -6,4 +6,4 @@ Tasks
  4. Task 4 =>code [Card](https://github.com/SeyfullayevaGunel/Frontend/tree/main/Task) = > preview[Card](https://codepen.io/seyfullayevagunel/pen/poLZKzZ)
  5.  Task 1 = > code[Dropdown](https://github.com/SeyfullayevaGunel/Frontend) = >code[Practica](https://codepen.io/seyfullayevagunel/pen/OJvBmPR)
  6. Task 6 = >code[Megamenu](https://github.com/SeyfullayevaGunel/Frontend) = >preview[Megamenu](https://codepen.io/seyfullayevagunel/pen/zYWmeOL)
-7. Task 7 = > [After-before](https://github.com/SeyfullayevaGunel/Frontend.git) = > preview[After-before](https://codepen.io/seyfullayevagunel/pen/abYPzqy)
+7. Task 7 = > [After-before](afterbefore/) = > preview[After-before](https://codepen.io/seyfullayevagunel/pen/abYPzqy)
