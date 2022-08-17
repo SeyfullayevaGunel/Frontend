@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    .container {
+        margin: auto;
+        width: 70%;
+
+        .flex {
+            .bigbox {
+                display: flex;
+                justify-content: space-evenly;
+                margin: 5rem;
+                .bgimage {
+                    height: 500px;
+                    width: 320px;
+                    background-image: url(city.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    position: relative;
+                    .line {
+                        width: 300px;
+                        height: 500px;
+                        border: 7px solid #bababa;
+                        position: absolute;
+                        bottom: 30px;
+                        right: 50px;
+                    }
+                    .year {
+                        background-color: #9f152f;
+                        width: 160px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        right: -35px;
+                        bottom: 75px;
+                        transform: rotate(270deg);
+                        z-index: 1;
+                        opacity: 0.7;
+                        p {
+                            color: #c8c9cd;
+                        }
+                    }
+                }
+                .text {
+                    width: 450px;
+                    padding: 3rem 0;
+                    span {
+                        color: red;
+                        padding-bottom: 1rem;
+                        font-size: 14px;
+                    }
+                    h1 {
+                        padding: 1rem 0;
+                    }
+                    p {
+                        padding: 1rem 0;
+                        color: #777777;
+                        word-break: break-all;
+                        font-size: 14px;
+                    }
+                    ul {
+                        li {
+                            list-style-type: none;
+                            color: #777777;
+                            padding: 7px 0;
+                            font-size: 14px;
+                        }
+                    }
+                    a {
+                        border: 3px solid red;
+                        text-decoration: none;
+                        padding: 10px 1.5rem;
+                        color: red;
+                        font-size: 14px;
+                    }
+                }
+                ul li::before {
+                    content: " \f0c8";
+                }
+                ul li:last-child {
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+
+    .bgimage::after {
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: black;
+        position: absolute;
+        opacity: 0.5;
+    }
+}
