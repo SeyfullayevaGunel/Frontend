@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 75%;
+}
+.container .megabox {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 2rem;
+}
+.container .megabox .one {
+  width: 35%;
+}
+.container .megabox .one .up {
+  border: 1px solid #dbe1df;
+  color: #dbe1df;
+  height: 400px;
+  border-radius: 6px;
+  font-size: 70px;
+  text-align: center;
+  padding: 5rem;
+  position: relative;
+}
+.container .megabox .one .up i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 25px;
+  color: #dbe1df;
+}
+.container .megabox .one .all {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.container .megabox .one .all .box {
+  background-color: #f3fdfe;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+}
+.container .megabox .one .all .box .icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: -15px;
+  color: #777777;
+  border: 1px solid #f2f3f6;
+  background-color: #f2f3f6;
+  border-radius: 50%;
+}
+.container .megabox .one .all .box .iconlast {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 80px;
+  color: #777777;
+  border: 1px solid #f2f3f6;
+  background-color: #f2f3f6;
+  border-radius: 50%;
+}
+.container .megabox .two {
+  width: 35%;
+  position: relative;
+}
+.container .megabox .two .sale {
+  background-color: #ffdfea;
+  color: #f4a7be;
+  width: 50px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 2px;
+}
+.container .megabox .two h1 {
+  font-size: 40px;
+  margin: 1rem 0;
+}
+.container .megabox .two .star {
+  display: inline;
+  color: yellow;
+  font-size: 10px;
+}
+.container .megabox .two span {
+  font-size: 10px;
+  color: #777777;
+}
+.container .megabox .two .price {
+  display: flex;
+  margin: 1rem 0;
+}
+.container .megabox .two .price .first {
+  width: 70px;
+  height: 50px;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #35b47c;
+}
+.container .megabox .two .price .second {
+  margin: 0 10px;
+  padding-top: 10px;
+}
+.container .megabox .two .price p {
+  font-size: 10px;
+}
+.container .megabox .two .price span {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: line-through;
+}
+.container .megabox .two p {
+  color: #777777;
+}
+.container .megabox .two .zero {
+  display: flex;
+  list-style-type: none;
+  margin-top: 1rem;
+  font-size: 15px;
+  color: #777777;
+  margin: 1rem 0;
+}
+.container .megabox .two .zero li {
+  margin: 0 10px 0 0;
+}
+.container .megabox .two .zero .green {
+  background: #35b47c;
+  padding: 2px 4px;
+  color: white;
+  border-radius: 5px;
+}
+.container .megabox .two .btn {
+  display: flex;
+}
+.container .megabox .two .btn .updown {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70px;
+  padding: 5px;
+  border: 2px solid #35b47c;
+  border-radius: 5px;
+}
+.container .megabox .two .btn .updown .down i {
+  display: block;
+  font-size: 8px;
+  color: #35b47c;
+}
+.container .megabox .two .btn .btn1 {
+  background: #35b47c;
+  color: white;
+  width: 130px;
+  border-radius: 5px;
+  border: 1px solid green;
+  margin: 0 5px;
+}
+.container .megabox .two .btn button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #dbe1df;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.container .megabox .two .btn ul {
+  display: inline-block;
+  list-style-type: none;
+}
+.container .megabox .two ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 2rem 0;
+}
+.container .megabox .two ul li {
+  font-size: 10px;
+  padding: 5px 0;
+}
+.container .megabox .two ul li p {
+  color: #777777;
+}
+.container .megabox .two ul li span {
+  color: #35b47c;
+}
+.container .megabox .three {
+  width: 25%;
+}
+.container .megabox .three .category1 {
+  border: 1px solid #dbe1df;
+  border-radius: 5px;
+  width: 250px;
+  height: 350px;
+  padding: 20px;
+}
+.container .megabox .three .category1 .smth {
+  border: 1px solid #dbe1df;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #777777;
+}
+.container .megabox .three .category1 .span2 {
+  background: #b6e2c9;
+  border-radius: 50%;
+  font-size: 14px;
+  padding: 2px;
+  margin-left: 80px;
+}
+.container .megabox .three .category1 h3::after {
+  content: "";
+  width: 60px;
+  background: #b6e2c9;
+  height: 2px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+.container .megabox .three .category1 h3::before {
+  content: "";
+  width: 145px;
+  height: 1px;
+  background-color: #dbe1df;
+  position: absolute;
+  top: 35px;
+  left: 60px;
+}
+.container .megabox .three .category2 {
+  border: 1px solid #dbe1df;
+  border-bottom: transparent;
+  width: 250px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  margin: 20px 0;
+}
+.container .megabox .three .category2 .slider-container .slider-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+  margin-top: 30px;
+  position: relative;
+}
+.container .megabox .three .category2 .slider-container .slider-items .icon-circle {
+  font-size: 12px;
+  color: #33b97a;
+}
+.container .megabox .three .category2 .slider-container .slider-items::before {
+  content: "";
+  height: 3px;
+  background: #33b97a;
+  position: absolute;
+  width: 100px;
+  top: 4px;
+  left: 0%;
+}
+.container .megabox .three .category2 .slider-container .slider-items::after {
+  content: "";
+  height: 3px;
+  background: #dbe1df;
+  position: absolute;
+  width: 100px;
+  top: 4px;
+  left: 108px;
+}
+.container .megabox .three .category2 p {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #777777;
+}
+.container .megabox .three .category2 p i {
+  padding-right: 5px;
+}
+.container .megabox .three span {
+  font-size: 10px;
+  color: #35b47c;
+}
+.container .megabox .three h3::after {
+  content: "";
+  width: 60px;
+  background: #b6e2c9;
+  height: 2px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+.container .megabox .three h3::before {
+  content: "";
+  width: 145px;
+  height: 1px;
+  background-color: #dbe1df;
+  position: absolute;
+  top: 35px;
+  left: 60px;
+}
+.container .megabox::after {
+  content: "";
+  background-color: #dbe1df;
+  width: 73%;
+  height: 1px;
+  position: absolute;
+  bottom: 25px;
+}/*# sourceMappingURL=style.css.map */
