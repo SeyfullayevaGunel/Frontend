@@ -7,3 +7,4 @@ Tasks
  5.  Task 1 = > code[Dropdown](https://github.com/SeyfullayevaGunel/Frontend) = >code[Practica](https://codepen.io/seyfullayevagunel/pen/OJvBmPR)
  6. Task 6 = >code[Megamenu](https://github.com/SeyfullayevaGunel/Frontend) = >preview[Megamenu](https://codepen.io/seyfullayevagunel/pen/zYWmeOL)
 7. Task 7 = > [After-before](afterbefore/) = > preview[After-before](https://codepen.io/seyfullayevagunel/pen/abYPzqy)
+8. Task 8 = >[Mentor task](https://github.com/SeyfullayevaGunel/Frontend) = > preview[Mentir task](https://codepen.io/seyfullayevagunel/pen/bGvzLod)
