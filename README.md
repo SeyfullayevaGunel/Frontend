@@ -8,3 +8,4 @@ Tasks
  6. Task 6 = >code[Megamenu](https://github.com/SeyfullayevaGunel/Frontend) = >preview[Megamenu](https://codepen.io/seyfullayevagunel/pen/zYWmeOL)
 7. Task 7 = > [After-before](afterbefore/) = > preview[After-before](https://codepen.io/seyfullayevagunel/pen/abYPzqy)
 8. Task 8 = >[Mentor task](https://github.com/SeyfullayevaGunel/Frontend) = > preview[Mentir task](https://codepen.io/seyfullayevagunel/pen/bGvzLod)
+ 9. Task9 = > code[input](https://github.com/SeyfullayevaGunel/Frontend) = > preview[input](https://codepen.io/seyfullayevagunel/pen/NWYZymJ)
