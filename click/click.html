@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container-fluid">
+<div class="row main">
+    <div class="col-2">
+        <img class="all" src="flower.jpg" alt="">
+        <!-- <button onclick="open()" class="btn btn-success">Open</button> -->
+        <button class="btn btn-success"  >Open</button>
+        <!-- <button onclick="myFunctionTwo()">Reverse it</button><br><br> -->
+        
+        
+
+
+    </div>
+    <div class="col-2">
+        <img class="all" src="nina.jpg" alt="">
+        <!-- <button onclick="open()" class="btn btn-success">Open</button> -->
+        <button class="btn btn-success">Open</button>
+        <!-- <button onclick="myFunctionTwo()">Reverse it</button><br><br> -->
+        
+        
+
+
+    </div>
+    <div class="col-2">
+        <img class="all" src="rings.jpg" alt="">
+        <!-- <button onclick="open()" class="btn btn-success">Open</button> -->
+        <button class="btn btn-success"   >Open</button>
+        <!-- <button onclick="myFunctionTwo()">Reverse it</button><br><br> -->
+        
+        
+
+
+    </div>
+    <div class="col-2">
+        <img class="all" src="casio.jpg" alt="">
+        <!-- <button onclick="open()" class="btn btn-success">Open</button> -->
+        <button class="btn btn-success">Open</button>
+        <!-- <button onclick="myFunctionTwo()">Reverse it</button><br><br> -->
+        
+       
+
+
+    </div>
+</div>
+
+
+
+   </div>
+   <p class="this" >Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+<script>
+
+//     function myFunction() {
+//   document.querySelectorAll("all").style.filter = "none";
+// }
+// var buttons= document.getElementsByTagName('button');
+
+// for (var i = 0; i < buttons.length; i++) {
+//   var button = buttons[i];
+//   button.onclick = function() {
+//     alert(button.id);
+//   }
+// }
+
+// buttons.forEach(element => {
+//     button.onclick=function(){
+//         element.style.filter="none"
+//     }
+// });
+var buttons = document.querySelectorAll("button")
+
+for (i = 0; i < buttons.length; i++) {
+   console.log(buttons[i])
+   buttons[i].addEventListener('click', function() {
+    this.previousElementSibling.style.filter = "none";
+    
+  });
+}
+// buttons.forEach(element => {
+//     element.addEventListener("click",function(){
+//         element.previousElementSibling.style.filter="none";
+//     })
+// });
+</script>
+</body>
+</html>

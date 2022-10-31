@@ -1,0 +1,13 @@
+.main{
+    margin: 5rem 0;
+    justify-content: space-around;
+}
+img{
+    width: 100%;
+    filter: blur(30px);
+    height: 50%;
+}
+.btn{
+    display: block;
+    margin: 2rem auto;
+}
