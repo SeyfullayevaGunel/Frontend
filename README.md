@@ -10,4 +10,5 @@ Tasks
 8. Task 8 = >[Mentor task](https://github.com/SeyfullayevaGunel/Frontend) = > preview[Mentir task](https://codepen.io/seyfullayevagunel/pen/bGvzLod)
  9. Task9 = > code[input](https://github.com/SeyfullayevaGunel/Frontend) = > preview[input](https://codepen.io/seyfullayevagunel/pen/NWYZymJ)
  Task9 = > code[input](https://github.com/SeyfullayevaGunel/Frontend) = > preview[input](https://codepen.io/seyfullayevagunel/pen/NWYZymJ)
- 10. 
+ 10.  task 10 = > code[responsiv](https://github.com/SeyfullayevaGunel/Frontend) = >preview[responsiv](https://codepen.io/seyfullayevagunel/pen/abGGdjV)
+ 11. task 11 = > code[click](https://github.com/SeyfullayevaGunel/Frontend)=>preview[click](https://codepen.io/seyfullayevagunel/pen/OJEyrKV)
