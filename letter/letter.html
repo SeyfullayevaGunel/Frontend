@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="row g-3">
+          <p>Hörmətli istifadəçi!</p>
+          <p>Azərbaycan Respublikası Prezidenti cənab İlham Əliyevə və Prezident Administrasiyasına məktub göndərmək ücün aşağıdakı formanı doldurun. Diqqətli olmağınız Sizdən xahiş olunur! </p>
+            <div class="col-md-4">
+              <label for="inputad4"  name="important" class="form-label">Adınız *</label>
+              <input type="text" name="ad" class="form-control" id="inputad4">
+            <span class="error"> bu sahe daxil edilmelidi</span>
+            </div>
+            <div class="col-md-4">
+              <label for="inputPsoyad4" class="form-label">Soyadınız *</label>
+              <input type="text" name="soyad" class="form-control" id="inputSoyad4">
+              <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            <div class="col-md-4">
+                <label for="inputAtad4" class="form-label">Atanızın adı *</label>
+                <input type="text" name="atad" class="form-control" id="inputAtad4 ">
+                <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+             <div class="col-md-6">
+                <div style="display: inline-block;"> <label for="inputolke4" class="form-label">Ölkə *</label>
+                </div>
+                <div class="form-check" style="display: inline-block;">
+                    
+                    <input name="checkcountry" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Azərbaycan
+                    </label>
+                    
+                  </div>
+                <input type="text" name="country" class="form-control" id="inputolke4">
+                <span class="error">bu sahe daxil edilmelidi</span>
+             </div>
+             <div class="col-md-4 hidden" style="display: none;">
+               
+                <label for="inputState" name="hidden" class="form-label">Şəhər *</label>
+                <span class="error">bu sahe daxil edilmelidi</span>
+                <select id="inputState" name="select" class="form-select">
+                  
+                  <option selected>--Siyahıdan Seçin-- </option>
+                  <option>Bakı</option>
+                  <option>Sumqayıt</option>
+                  <option>Bakı</option>
+                  <option>Mingəçevir</option>
+                  <option>Bakı</option>
+                  <option>Lənkəran</option>
+                </select>
+                
+              </div>
+             <div class="col-md-6 city" >
+                <label for="inputseher4" class="form-label">Şəhər *</label>
+                <span class="error">bu sahe daxil edilmelidi </span>
+                <input type="text" name="cityinput" class="form-control" id="inputseher4">
+              </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Ünvan *</label>
+              <input type="text" name="address" class="form-control" id="inputAddress">
+              <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            <div class="col-md-6">
+              <label for="inputTel2" class="form-label">Telefon *</label>
+              <input type="text" name="phone" class="form-control" id="inputtel2">
+              <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            <div class="col-md-6">
+              <label for="inputemail" class="form-label">e-Mail *</label>
+              
+              <input type="email" name="email" class="form-control" id="inputemail">
+              <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Yaşınız *</label>
+                <input type="text" name="age" class="form-control" id="inputZip">
+                <span class="error">bu sahe daxil edilmelidi </span>
+              </div>
+              <div class="col-md-4">
+                <div>
+                  <label for="">Cinsiniz *</label> <br>
+                
+                <div style="margin-top: 7px;">
+                    <div class="form-check form-check-inline" >
+                        <input class="form-check-input gen" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1" style="margin-top: 5px;">Kişi</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input gen" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Qadın</label>
+                      </div>
+                     
+                </div>
+                
+                </div>
+                <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            
+            <div class="col-md-6">
+              <div>
+                <label for="inputState" class="form-label">Sosial durum *</label>
+                <span class="error">bu sahe daxil edilmelidi </span>
+                <select id="inputSt" name="sosial" class="form-select">
+                <option selected>--Siyahıdan Seçin--</option>
+                <option>təhsil işçisi</option>
+                <option>elmi işçi</option>
+                <option>səhiyyə işçisi</option>
+                <option>elmi işçi</option>
+              </select>
+              </div>
+              
+            </div>
+            <div class="col-12">
+                <label for="">Müraciətin növü *</label> <br>
+                <div class="form-check form-check-inline">
+                    <input name="offer" class="form-check-input gen" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Təklif</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input name="offer" class="form-check-input gen" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Ərizə</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input name="offer" class="form-check-input gen" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Şikayət </label>
+                  </div>
+                  <br>
+                  <span class="error">bu sahe daxil edilmelidi </span>
+            </div>
+            <div class="col-12">
+                
+                  <label for="">Müraciətin mövzusu *</label> <br>
+                <label for="inputState" class="form-label">Əsas mövzu *</label>
+                <span class="error">bu sahe daxil edilmelidi </span>
+                <select id="inputState" name="selectheme" class="form-select">
+                  <span class="error">bu sahe daxil edilmelidi </span>
+                  <option selected>--Siyahıdan Seçin--</option>
+                  <option>Torpaq məsələləri</option>
+                  <option>Səhiyyə məsələləri</option>
+                  <option>Özəlləşdirmə məslələri</option>
+                  <option>Qəbul məsələləri</option>
+                </select>
+                
+                
+               
+              </div>
+              <div class="col-12">
+                <label for="">Müraciət- <span> <dfn id="counter">500</dfn> "İşarə qalıb"</span> </label> <br>
+                <textarea name="area" id="txt" cols="60" rows="15" maxlength="500"></textarea>
+                <span class="error">bu sahe daxil edilmelidi </span>
+              </div>
+            <div class="col-12 flex">
+              <div class="form-check">
+                <span class="error">bu sahe daxil edilmelidi </span> <br>
+                <input name="agree" class="form-check-input" type="checkbox" id="gridCheck">
+                
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+
+              </div>
+             
+            </div>
+            <div class="col-12 flex">
+              <button disabled type="submit" class="btn btn-primary">Tesdiq edin</button>
+            </div>
+            
+          </form>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
