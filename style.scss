@@ -1,146 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+body{
+    background-color:#F1F1F1 ;
 }
-a{
-    text-decoration: none;
-}
-  .container{
-    margin: auto;
-    width: 90%;
-  } 
-  .flex-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-    
-header{
-    font-family: 'Roboto', sans-serif;
-    .top-nav{
-        padding: 1rem 0
-        ;
-        .left{
-            width: 30%;
-            color: #777777;
-            font-size: 12px;
+.container{
+    form{
+        background-color: white;
+        padding: 20px;
+        width: 800px;
+        margin: 50px auto;
+        box-shadow: 5px 5px 0 0 #d4e5ef;
+        color: #224285;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 18px;
+        textarea{
+            width: 100%;
         }
-        .right{
-            width: 70%;
-            text-align: right;
-            ul{
-                li{
-                    display: inline;
-                    a{
-                        color: #777777;
-                        font-size: 12px;
-                    }
-                }
-                .border{
-                    border-right: 2px solid #777777;
-                    margin: 0 10px;
-                    
-                }
-            }
+        
+        
+        .gen{
+            height:28px; 
+            width:28px; 
+            vertical-align: middle !important;
+        }
+        .form-check-label{
+            margin:5px;
+        }
+        .error{
+            font-size: 12px;
+    color: red;
+    font-style: italic;
+    margin-top: 5px;
+    display: none;
+
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            box-shadow: 10px 10px 0 0 rgb(0 0 0 / 50%);
+            background-color: #224285;
+    border: none;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 18px;
+    font-weight: bold;
         }
     }
-    .bottom-nav{
-        background-color: #F8F8F8 ;
-        .box{
-            width: 25%;
-            h4{
-                img{
-                    vertical-align: middle;
-                }
-            }
-            ul{
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                height: 100%;
-                hr{
-                    height: 100%;
-                    width: 1px;
-                    border-color: #ffffff;
-                    padding: 0;
-                }
-                li{
-                    a{
-                        color: #222222;
-                        
-                        }
-                        
 
-                    }
-                    
-                    
-                }
-            }
-
-        }
-
-        .box-center{
-            width: 50%;
-            .mainul{
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                
-                .li-main{
-                    padding: 10px;
-                    margin: 0 20px;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    a{
-                        font-size: 12px;
-                    color: #222222;
-                    }
-                    position: relative;
-                    .dropdown{
-                        display: none;
-                        border: 1px solid #dbcece;
-                        width: 150px;
-                        background-color: white;
-                        position: absolute;
-                        top: 70px;
-                        left: -20px;
-                        z-index: 1;
-                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                        li{
-                            margin: 0;
-                            padding: 10px 0;
-                            border-bottom: 1px solid #efe4e4;
-a{
-    margin-left: 20px;
-    color: black;
+    
 }
-                        }
-                        li:last-child{
-                            border-bottom: none;
-                        }
-
-                        }
-                    }
-                    .li-main:hover .dropdown{
-                        display: block;
-                    }
-                    .li-main :hover{
-                        background-color: rgb(79, 79, 108);
-                        padding: 10px;
-                    }
-                }
-
-                
-            }
-        }
-    
-
-        
-
-
-    
-    
