@@ -12,3 +12,4 @@ Tasks
  Task9 = > code[input](https://github.com/SeyfullayevaGunel/Frontend) = > preview[input](https://codepen.io/seyfullayevagunel/pen/NWYZymJ)
  10.  task 10 = > code[responsiv](https://github.com/SeyfullayevaGunel/Frontend) = >preview[responsiv](https://codepen.io/seyfullayevagunel/pen/abGGdjV)
  11. task 11 = > code[click](https://github.com/SeyfullayevaGunel/Frontend)=>preview[click](https://codepen.io/seyfullayevagunel/pen/OJEyrKV)
+ 12. task 12=>code[portfolio](https://github.com/SeyfullayevaGunel/Frontend)=>preview[portfolio](https://codepen.io/seyfullayevagunel/pen/MWXXKLV)
