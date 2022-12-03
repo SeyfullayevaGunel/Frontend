@@ -1,0 +1,28 @@
+form{
+    text-align: center;
+  }
+  
+  select{
+    padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 100px auto;
+  }
+  #area{
+    background: pink;
+    mwidth: 100px;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+  }
+  span{
+    
+      display: none;
+     padding: 0 5px;
+     margin:0 10px 0 2px; ;
+      border-radius: 5px;
+  }
